@@ -1,9 +1,10 @@
 import React from 'react'
+import { Welcome } from '../welcome';
 
-const App () => {
+const App = () => {
   return (
     <Wrapper>
-
+      <Welcome />
     </Wrapper>
   )
 }
