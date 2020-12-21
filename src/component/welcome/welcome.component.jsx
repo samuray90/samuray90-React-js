@@ -23,7 +23,6 @@ const Welcome = () => {
   const {
     person,
     jobTitle,
-    descriptionTitle,
     sectionDescription,
   } = welcome
 
@@ -35,13 +34,13 @@ const Welcome = () => {
       <Column height={10} />
       <WS.DesktopWrap>
         <Column>
-          <WS.StyledH1>{person && person.firstName} {person && person.lastName} {person && person.nickName} </WS.StyledH1>
+          <WS.StyledHH>{person && person.firstName} {person && person.lastName} {person && person.nickName} </WS.StyledHH>
         </Column>
         <Column>
           <WS.StyledH2>{jobTitle}</WS.StyledH2>
         </Column>
         <Column>
-          <WS.StyledH3>{sectionTitle}</WS.StyledH3>
+          <WS.StyledH3>{SectionTitle}</WS.StyledH3>
         </Column>
         <Column>
           <WS.StyledDiv>
@@ -49,6 +48,7 @@ const Welcome = () => {
           </WS.StyledDiv>
         </Column>
       </WS.DesktopWrap>
+
     </>
   )
 }

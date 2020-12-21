@@ -20,7 +20,7 @@ color:#707070;
 
 `
 
-export const StyledH1 = styled.h1`
+export const StyledHH = styled.div`
   text-align: center;
   font-size: 48px;
   color: #707070;
