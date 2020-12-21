@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import * as WS from './welcome.style';
+import { get } from 'axios';
+import { Column } from '../column';
+import { SectionTitle } from '../section-title';
 
 
 
@@ -21,7 +24,7 @@ const Welcome = () => {
     person,
     jobTitle,
     descriptionTitle,
-    sectionDescription
+    sectionDescription,
   } = welcome
 
   return (
@@ -32,7 +35,7 @@ const Welcome = () => {
       <Column height={10} />
       <WS.DesktopWrap>
         <Column>
-          <WS.StyledH1>{person && person.firstName} {person && person.lastName} </WS.StyledH1>
+          <WS.StyledH1>{person && person.firstName} {person && person.lastName} {person && person.nickName} </WS.StyledH1>
         </Column>
       </WS.DesktopWrap>
     </>
