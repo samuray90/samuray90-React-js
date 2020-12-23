@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   grid-gap: 10px;
   margin: 0 36px;
 }
+
 @media only screen and (min-width: 992px) {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

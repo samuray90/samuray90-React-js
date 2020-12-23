@@ -3,8 +3,8 @@ import { App } from './component/app'
 import './index.css'
 import { render } from 'react-dom';
 
-const root = document.querySelector('root')
+const here = document.querySelector('#here')
 
 const app = <App />
 
-render(root, app) 
+render(app, here)
