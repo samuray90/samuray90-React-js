@@ -14,13 +14,6 @@ export const DesktopWrap = styled.div`
 `
 
 export const StyledH1 = styled.h1`
-text-align:center;
-font-size:50px;
-color:#707070;
-
-`
-
-export const StyledHH = styled.div`
   text-align: center;
   font-size: 48px;
   color: #707070;
@@ -35,6 +28,7 @@ export const StyledH3 = styled.h3`
   font-size: 22px;
   color: #808080;
   line-height: 30px;
+  
   `
 export const StyledP = styled.p`
   text-align: center;
