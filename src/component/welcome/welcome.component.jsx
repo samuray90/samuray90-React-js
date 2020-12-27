@@ -1,27 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import { Column } from '../column';
-import { SectionTitle } from '../section-title';
-import * as WS from './welcome.style';
-import { get } from 'axios';
+import React, { useEffect, useState } from "react";
+import { Column } from "../column";
+import { SectionTitle } from "../section-title";
+import * as WS from "./welcome.style";
+import { get } from "axios";
 
 const Welcome = () => {
-  const [welcome, updateWelcome] = useState({})
-  useEffect(
-    () => {
-      const getResult = async () => {
-        const { data } = await get("http://localhost:4567/welcome")
-        updateWelcome(data)
-      }
-      getResult()
-    },
-    []
-  )
-  const {
-    person,
-    jobTitle,
-    sectionDescription,
-    sectionTitle
-  } = welcome
+  const [welcome, updateWelcome] = useState({});
+
+  useEffect(() => {
+    const getResult = async () => {
+      const { data } = await get("http://localhost:4567/welcome");
+      updateWelcome(data);
+    };
+    getResult();
+  }, []);
+
+  const { person, jobTitle, sectionDescription, sectionTitle } = welcome;
+
   return (
     <>
       <Column>
@@ -30,7 +25,9 @@ const Welcome = () => {
       <Column height={10} />
       <WS.DesktopWrap>
         <Column>
-          <WS.StyledH1>{person && person.firstName} {person && person.lastName} </WS.StyledH1>
+          <WS.StyledH1>
+            {person && person.firstName} {person && person.lastName}{" "}
+          </WS.StyledH1>
         </Column>
         <Column>
           <WS.StyledH2>{jobTitle}</WS.StyledH2>
@@ -44,14 +41,13 @@ const Welcome = () => {
           </WS.StyledDiv>
         </Column>
         <Column height={10} />
-        <Column display="flex">
-        </Column>
+        <Column display="flex"></Column>
         <Column height={10} />
-        <Column display="flex">
-        </Column>
+        <Column display="flex"></Column>
       </WS.DesktopWrap>
       <Column height={10} />
     </>
-  )
-}
-export { Welcome }
+  );
+};
+
+export { Welcome };

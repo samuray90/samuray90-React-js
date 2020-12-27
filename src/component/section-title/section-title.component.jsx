@@ -1,13 +1,12 @@
-import React from 'react';
-import { StyledSectionTitle, StyledSectionText } from './section-title.style';
+import React from "react";
+import { StyledSectionText, StyledSectionTitle } from "./section-title.style";
 
 const SectionTitle = ({ children }) => {
-    return (
-        <StyledSectionTitle>
-            <StyledSectionText>{children}</StyledSectionText>
-        </StyledSectionTitle>
-    )
-}
+  return (
+    <StyledSectionTitle>
+      <StyledSectionText>{children}</StyledSectionText>
+    </StyledSectionTitle>
+  );
+};
 
-
-export { SectionTitle }
+export { SectionTitle };

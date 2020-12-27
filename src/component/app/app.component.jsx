@@ -1,14 +1,13 @@
-import React from 'react'
-import { Welcome } from '../welcome';
-import { Wrapper } from './app.style'
-
+import React from "react";
+import { Welcome } from "../welcome";
+import { StyledAppWrapper } from "./app.style";
 
 const App = () => {
   return (
-    <Wrapper>
+    <StyledAppWrapper>
       <Welcome />
-    </Wrapper>
-  )
-}
+    </StyledAppWrapper>
+  );
+};
 
-export { App }
+export { App };
