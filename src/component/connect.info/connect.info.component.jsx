@@ -8,7 +8,7 @@ import {
   StyledLinkWrap,
   StyledTitle,
   StyledTitleWrap,
-} from "./connect-info.style";
+} from "./connect.info.style";
 
 const SocialWrapper = ({ title, handleClose, description, link }) => {
   const iconProp = {

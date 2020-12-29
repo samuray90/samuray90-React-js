@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const StyledInfoWrap = styled.div`
   display: flex;
   flex-direction: column;

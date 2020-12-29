@@ -60,7 +60,7 @@ const Connect = () => {
         </Column>
         <Column height={10} />
         <Column>
-          {selected.hasOwnProperty(title) && (
+          {selected.hasOwnProperty("title") && (
             <SocialWrapper {...selected} handleClose={closeTheModal} />
           )}
         </Column>
