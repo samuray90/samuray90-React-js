@@ -3,6 +3,7 @@ import { Column } from "../column";
 import { SectionTitle } from "../section-title";
 import * as WS from "./welcome.style";
 import { get } from "axios";
+import { Button } from '../button'
 
 const Welcome = () => {
   const [welcome, updateWelcome] = useState({});
@@ -26,7 +27,7 @@ const Welcome = () => {
       <WS.DesktopWrap>
         <Column>
           <WS.StyledH1>
-            {person && person.firstName} {person && person.lastName}{" "}
+            {person && person.firstName} {person && person.lastName}{''}
           </WS.StyledH1>
         </Column>
         <Column>
@@ -41,9 +42,19 @@ const Welcome = () => {
           </WS.StyledDiv>
         </Column>
         <Column height={10} />
-        <Column display="flex"></Column>
+        <Column display="flex">
+          <Button 
+          icon="download"
+          label="Download my CV">
+          </Button>
+        </Column>
         <Column height={10} />
-        <Column display="flex"></Column>
+        <Column display="flex">
+          <Button 
+          icon ="arrow-down"
+          background="green"
+          />
+        </Column>
       </WS.DesktopWrap>
       <Column height={10} />
     </>
