@@ -5,7 +5,7 @@ export const ConnectWrap = styled.div`
     display: grid;
     grid-template-columns: repeat (8, 1fr);
   }
-`;
+`
 
 export const ButtonWrapper = styled.div`
   display:grid;
@@ -16,4 +16,4 @@ export const ButtonWrapper = styled.div`
   @media only screen and (min-width: 600px) {
     grid-column: 5-1;
   }
-`;
+`

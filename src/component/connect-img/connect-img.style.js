@@ -9,8 +9,6 @@ export const StyledImg = styled.div`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   transform: rotate(-2.5deg);
-  /* width: 100px;
-  height: 100px; */
   position: relative;
   border: 6px solid #fff;
   margin-bottom: 40px;
