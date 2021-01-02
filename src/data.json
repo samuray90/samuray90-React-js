@@ -67,8 +67,174 @@
       }
     }
   },
+  "menu": {
+    "menuList": [
+      "Welcome",
+      "Let's connect",
+      "Skills",
+      "Experience",
+      "Open Source",
+      "Portfolio",
+      "Recommendations",
+      "Reviews"
+    ]
+  },
   "skill": {
     "sectionTitle": "Skills",
-    "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak."
+    "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "icon": "heart",
+          "color": "red",
+          "label": "Skills I love",
+          "number": "1"
+        },
+        {
+          "icon": "trophy",
+          "color": "green",
+          "label": "Skills I master",
+          "number": "2"
+        },
+        {
+          "icon": "book",
+          "color": "orange",
+          "label": "Skills I'd love to improve",
+          "number": "3"
+        }
+      ]
+    },
+    "frontEnd": {
+      "frontTile": "Front End",
+      "skillList": [
+        {
+          "color": "red",
+          "label": "HTML"
+        },
+        {
+          "color": "red",
+          "label": "CSS"
+        },
+        {
+          "color": "red",
+          "label": "JavaScript"
+        },
+        {
+          "color": "red",
+          "label": "React"
+        },
+        {
+          "color": "red",
+          "label": "Redux"
+        },
+        {
+          "color": "red",
+          "label": "Styled Components"
+        },
+        {
+          "color": "red",
+          "label": "Vue"
+        },
+        {
+          "color": "green",
+          "label": "Sass"
+        },
+        {
+          "color": "green",
+          "label": "Less"
+        },
+        {
+          "color": "green",
+          "label": "Material UI"
+        },
+        {
+          "color": "green",
+          "label": "SEO"
+        }
+      ]
+    },
+    "backEnd": {
+      "backTitle": "Back End",
+      "backSkillList": [
+        {
+          "color": "red",
+          "label": "Pug"
+        },
+        {
+          "color": "red",
+          "label": "Nodejs"
+        },
+        {
+          "color": "red",
+          "label": "FireBase"
+        },
+        {
+          "color": "green",
+          "label": "Git"
+        },
+        {
+          "color": "green",
+          "label": "Linux"
+        },
+        {
+          "color": "green",
+          "label": "Rest"
+        },
+        {
+          "color": "green",
+          "label": "Rest"
+        },
+        {
+          "color": "green",
+          "label": "MySQL"
+        },
+        {
+          "color": "gold",
+          "label": "SMS"
+        },
+        {
+          "color": "gold",
+          "label": "BlockChain"
+        },
+        {
+          "color": "gold",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    "Others": {
+      "othersTitle": "Others",
+      "otherSkillList": [
+        {
+          "color": "red",
+          "label": "Windows 10"
+        },
+        {
+          "color": "red",
+          "label": "Cortana"
+        },
+        {
+          "color": "red",
+          "label": "Ajax"
+        },
+        {
+          "color": "green",
+          "label": "Go"
+        },
+        {
+          "color": "green",
+          "label": "Next"
+        },
+        {
+          "color": "green",
+          "label": "cmd"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "jobList": []
   }
 }
