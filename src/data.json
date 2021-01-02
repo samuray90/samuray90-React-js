@@ -14,55 +14,55 @@
       "codetap": {
         "title": "CodeTap",
         "icon": "codetap",
-        "description": "If you manage to get in contact with us you will get top information regarding your code and the best mentorship in London",
+        "description": "Get in contact with us and you will get top information regarding your code and the best mentorship in London.",
         "link": "https://bitbee.uk"
       },
       "github": {
         "title": "GitHub",
         "icon": "github",
-        "description": "Here are all my projects",
+        "description": "Here are all my projects.",
         "link": "https://github.com/samuray90"
       },
       "stackoverflow": {
         "title": "StackOverFlow",
         "icon": "stackoverflow",
-        "description": "I am on Stackoverflow as well. Perfect place to ask for help",
+        "description": "I am on Stackoverflow as well. Perfect place to ask for help.",
         "link": "https://https://stackoverflow.com/users/14872486/johnny"
       },
       "linkedIn": {
         "title": "LinkedIn",
         "icon": "linkedin",
-        "description": "I keep myself connected  with my colleagues or perhaps with the recruiters",
+        "description": "I keep myself connected  with my colleagues even with the recruiters.",
         "link": "https://www.linkedin.com/in/i-daniel-petrut-88153b2b/"
       },
       "facebook": {
         "title": "Facebook",
         "icon": "facebook",
-        "description": "To get closer to each other add me as your friend, who knows, maybe we can share our knowledge",
+        "description": "To get closer to each other send me a friend request.",
         "link": "https://www.facebook.com/ionutdaniel.petrut"
       },
       "instagram": {
         "title": "Instagram",
         "icon": "instagram",
-        "description": "Somethimes, whatever i think is funny or looks good gets posted here",
+        "description": "Whatever i think is funny or looks good gets posted here.",
         "link": "https://www.instagram.com/ionutdanielpetrut/"
       },
       "skype": {
         "title": "Skype",
         "icon": "skype",
-        "description": "Let's connect on Skype",
+        "description": "Let's connect on Skype.",
         "link": "https://www.skype.com/en/"
       },
       "udemy": {
         "title": "Udemy",
         "icon": "udemy",
-        "description": "If i need something urgend I always check on Udemy",
+        "description": "If I need something urgent, I always check on Udemy.",
         "link": "https://www.udemy.com/user/ionut-daniel-petrut/"
       },
       "codewars": {
         "title": "CodeWars",
         "icon": "codewars",
-        "description": " In my spare time I jump over here and strat a new 'war' ",
+        "description": " In my spare time I jump over here and strat a new 'war' .",
         "link": "https://www.codewars.com/users/samuray_09"
       }
     }

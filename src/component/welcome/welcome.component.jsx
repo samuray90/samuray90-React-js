@@ -42,12 +42,14 @@ const Welcome = () => {
           </WS.StyledDiv>
         </Column>
         <Column height={10} />
+        <Column height={10} />
         <Column display="flex">
           <Button 
           icon="download"
           label="Download my CV">
           </Button>
         </Column>
+        <Column height={10} />
         <Column height={10} />
         <Column display="flex">
           <Button 

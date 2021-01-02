@@ -64,6 +64,7 @@ const Connect = () => {
           </Column>
           <Column height={10} />
           <Column display="flex">
+          <Column height={10} />
             <Button 
               icon="arrow-down"
               background="green"

@@ -12,7 +12,7 @@ export const StyledImg = styled.div `
   /* width: 100px;
   height: 100px; */
   position: relative;
-  border: 6px solid #fff;
+  border: 6px solid #dbeb39;
   margin-bottom: 40px;
 
   &::after {
